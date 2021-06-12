@@ -2,6 +2,11 @@
 
 Movies API with Google OAuth2.0 as well as native authentication, MongoDB database, node.js server 
 
+## App Demo
+Click on the photo to watch the full video.
+
+[![Watch the video](https://github.com/Ganesh-Sindagi/Movie-RESTAPI/blob/main/APP%20DEMO/home.png)](https://github.com/Ganesh-Sindagi/Movie-RESTAPI/blob/main/APP%20DEMO/Movie-api.mp4)
+
 ## Installation
 
 Clone the repository, open the Terminal or Command Prompt in the current directory and execute the following command.
