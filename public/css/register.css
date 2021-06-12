@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@700&display=swap');
+
+body {
+    background: linear-gradient(to right, #02aab0, #00cdac) !important;
+}
+
+.card {
+    margin-top: 9rem;
+    width: 50rem;
+    height: 27rem;
+    padding: 1rem;
+    margin-left: 35rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+#emaillabel {
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+#exampleInputEmail1 {
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+#exampleInputPassword1 {
+    margin-top: 5px;
+}
+
+#plabel {
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.btn-dark {
+    font-weight: 500;
+    margin-top: 1.5rem;
+} 
+
+.btn-success {
+    font-weight: 500;
+    margin-top: 1.5rem;
+} 

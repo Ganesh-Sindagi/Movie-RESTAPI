@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@700&display=swap');
+
+body {
+    background: linear-gradient(to right, #02aab0, #00cdac) !important;
+}
+
+.card {
+    margin-top: 8rem;
+    width: 40rem;
+    height: 28.5rem;
+    padding: 1rem;
+    padding-left: 2rem;
+    margin-left: 27rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.name {
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.credentials {
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.keys {
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.note {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-top: 20px;
+}
+
+.btn-danger {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-top: 5px;
+}

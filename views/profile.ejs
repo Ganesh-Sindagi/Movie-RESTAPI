@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/profile.css">
+    <title>profile</title>
+</head>
+<body>
+    <div class="card">
+        <div class="card-body">
+            <h1 class="card-title">Profile</h1>
+            <h2 class="name">Hello <%= foundUser.username %></h2>
+            <h3 class="credentials">Your API credentials: </h3>
+            <h5 class="keys">APP_ID: <%= foundUser.APP_ID %></h5>
+            <h5 class="keys">APP_KEY: <%= foundUser.APP_KEY %></h5>
+            <p class="note"><strong>Note: </strong>Please keep your id and key in the .env file.<br>Do not share it with anyone.</p>
+            <a href="/logout"><button type="button" class="btn btn-danger">Logout</button></a>
+        </div>
+    </div>
+</body>
+</html>
